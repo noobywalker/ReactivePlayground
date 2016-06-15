@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C2F59F1A1D00812A00667B96"
+               BuildableName = "ReactiveSwift.app"
+               BlueprintName = "ReactiveSwift"
+               ReferencedContainer = "container:ReactiveSwift.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C2F59F2E1D00812A00667B96"
+               BuildableName = "ReactiveSwiftTests.xctest"
+               BlueprintName = "ReactiveSwiftTests"
+               ReferencedContainer = "container:ReactiveSwift.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C2F59F391D00812A00667B96"
+               BuildableName = "ReactiveSwiftUITests.xctest"
+               BlueprintName = "ReactiveSwiftUITests"
+               ReferencedContainer = "container:ReactiveSwift.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C2F59F1A1D00812A00667B96"
+            BuildableName = "ReactiveSwift.app"
+            BlueprintName = "ReactiveSwift"
+            ReferencedContainer = "container:ReactiveSwift.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C2F59F1A1D00812A00667B96"
+            BuildableName = "ReactiveSwift.app"
+            BlueprintName = "ReactiveSwift"
+            ReferencedContainer = "container:ReactiveSwift.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C2F59F1A1D00812A00667B96"
+            BuildableName = "ReactiveSwift.app"
+            BlueprintName = "ReactiveSwift"
+            ReferencedContainer = "container:ReactiveSwift.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
